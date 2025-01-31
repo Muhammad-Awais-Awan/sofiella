@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-rose-gold: 226, 184, 163;
+  --color-champagne: 247, 230, 196;
+  --color-deep-purple: 45, 27, 77;
+  --color-soft-lilac: 163, 140, 216;
+  --color-neon-blue: 124, 232, 240;
+  --color-pearl-white: 255, 253, 250;
+  --color-soft-pink: 255, 240, 245;
+}
+
+@layer base {
+  body {
+    @apply font-inter text-deep-purple;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-playfair;
+  }
+}
+
+.font-parisienne {
+  font-family: var(--font-parisienne);
+}
