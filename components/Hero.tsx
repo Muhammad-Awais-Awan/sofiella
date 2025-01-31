@@ -54,7 +54,7 @@ const Hero = () => {
               <span className="absolute -inset-1 bg-neon-blue/20 rounded-lg blur-lg" />
             </span>
           </h1>
-          <p className="text-2xl md:text-3xl font-parisienne text-soft-lilac text-pink-300 mb-8">
+          <p className="text-2xl md:text-3xl font-parisienne text-soft-lilac text-pink-200 mb-8">
             Unveil Your True Glow
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
